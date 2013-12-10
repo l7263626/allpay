@@ -1,6 +1,6 @@
 <?php
 Class ALLPAY{
-      
+        protected $all_cfg = array();
         function __construct(){
                 global $db,$cms_cfg,$ws_array,$TPLMSG;
                 // 主要設定 ----
